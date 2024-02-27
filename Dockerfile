@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:14
 
 ENV NODE_VERSION 8.9.4
 
