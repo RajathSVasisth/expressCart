@@ -1,3 +1,16 @@
+require("appdynamics").profile({
+    controllerHostName: 'lombard202402252129458.saas.appdynamics.com',
+    controllerPort: 443,
+    
+    // If SSL, be sure to enable the next line
+    controllerSslEnabled: true,
+    accountName: 'lombard202402252129458',
+    accountAccessKey: '0qouo5ccpxc0',
+    applicationName: 'node-test-app',
+    tierName: 'node-test-tier',
+    nodeName: 'process' // The controller will automatically append the node name with a unique number
+   });
+   
 const fs = require('fs');
 const yenv = require('yenv');
 if(fs.existsSync('./env.yaml')){
