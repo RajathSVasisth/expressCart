@@ -6,8 +6,8 @@ require("appdynamics").profile({
     controllerSslEnabled: true,
     accountName: 'lombard202402252129458',
     accountAccessKey: '0qouo5ccpxc0',
-    applicationName: 'node-test-app',
-    tierName: 'node-test-tier',
+    applicationName: 'appd-node -app',
+    tierName: 'appd-node-tier',
     nodeName: 'process' // The controller will automatically append the node name with a unique number
    });
    
