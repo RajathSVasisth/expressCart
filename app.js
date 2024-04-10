@@ -1,6 +1,9 @@
 require("appdynamics").profile({
   controllerHostName: "curie202404090456277.saas.appdynamics.com",
-  controllerPort: 80,
+  controllerPort: 443,
+
+  // If SSL, be sure to enable the next line
+  controllerSslEnabled: true,
   accountName: "curie202404090456277",
   accountAccessKey: "fs7yzfj5du53",
   applicationName: "appdynamics-app",

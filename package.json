@@ -28,7 +28,7 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "ajv-errors": "^1.0.1",
-    "appdynamics": "^24.2.0",
+    "appdynamics": "^24.3.0",
     "async": "^2.6.3",
     "axios": "^0.21.1",
     "badwords-list": "^1.0.0",
